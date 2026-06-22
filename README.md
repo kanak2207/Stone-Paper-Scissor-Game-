@@ -1,6 +1,6 @@
 # ✊🖐✌ Rock Paper Scissors — Finger Edition
 
-A real-time **hand gesture-controlled Rock Paper Scissors game** built with **Python, OpenCV, and MediaPipe**. Play without touching your keyboard or mouse — your hand is the controller.
+A real-time **hand gesture-controlled Rock Paper Scissors game** built with **Python, OpenCV, and MediaPipe**. No mouse, no keyboard — your hand is the controller.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python">
@@ -14,10 +14,10 @@ A real-time **hand gesture-controlled Rock Paper Scissors game** built with **Py
 ## 🎮 Demo
 
 <p align="center">
-  <img src="assets/demo.gif" width="700">
+  <img src="assets/demo.gif" width="750">
 </p>
 
-> Point your index finger to navigate menus and use gestures to play against the CPU.
+> Point your index finger to navigate menus and use hand gestures to play against the CPU.
 
 ---
 
@@ -27,7 +27,7 @@ A real-time **hand gesture-controlled Rock Paper Scissors game** built with **Py
 
 * No mouse or keyboard required
 * Hover your fingertip over buttons to select
-* One-second hold confirmation system
+* Hold for ~1 second to confirm actions
 
 ### 👋 Real-Time Hand Tracking
 
@@ -35,9 +35,9 @@ A real-time **hand gesture-controlled Rock Paper Scissors game** built with **Py
 * Live hand skeleton visualization
 * Smooth fingertip cursor tracking
 
-### ✊✋✌ Sign Detection
+### ✊✋✌ Sign Recognition
 
-Recognizes:
+Automatically detects:
 
 | Gesture | Sign     |
 | ------- | -------- |
@@ -47,36 +47,37 @@ Recognizes:
 
 ### 🎯 Gameplay Features
 
-* Choose target score: **3, 5, 7, or 10**
+* Select target score: **3, 5, 7, or 10**
 * Automatic round progression
-* Round counter and score HUD
-* Animated countdown before reveal
-* CPU opponent with random moves
+* Round counter and score bars
+* CPU opponent
+* Countdown timer before reveal
 
 ### 🎨 Visual Effects
 
 * Neon fingertip cursor trail
-* Particle effects on win/loss/tie
-* Animated player and CPU signs
-* Progress bars and smooth transitions
+* Particle effects on win, loss and tie
+* Animated sign drawings
+* Smooth transitions and HUD
 
 ### 🔄 Match System
 
 * Rematch option
 * Return to menu without restarting
-* Fully self-contained script
+* Single script, no external assets required
 
 ---
 
 ## 🧠 How It Works
 
 1. Start the webcam.
-2. Select the match score using your fingertip.
-3. Show Rock, Paper, or Scissors.
-4. Hold your gesture until it's locked.
+2. Select the target score.
+3. Show Rock, Paper or Scissors.
+4. Hold the gesture until it is locked.
 5. Countdown begins.
-6. Winner is announced.
+6. Round result is displayed.
 7. Next round starts automatically.
+8. Play until one side reaches the target score.
 
 ---
 
@@ -85,13 +86,16 @@ Recognizes:
 ```text
 rps-finger-edition/
 │
-├── rps.py             # Main game script
+├── rps.py
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 └── assets/
+    ├── demo.gif
+    ├── menu.png
     ├── gameplay.png
-    └── demo.gif
+    ├── result.png
+    └── gameover.png
 ```
 
 ---
@@ -117,7 +121,7 @@ Run the game:
 python rps.py
 ```
 
-Press **Q** to quit anytime.
+Press **Q** at any time to quit.
 
 ---
 
@@ -134,7 +138,7 @@ mediapipe
 numpy
 ```
 
-Install:
+Install manually:
 
 ```bash
 pip install opencv-python mediapipe numpy
@@ -144,11 +148,11 @@ pip install opencv-python mediapipe numpy
 
 ## 🖼 Gesture Reference
 
-| Gesture | Sign     | Description                      |
-| ------- | -------- | -------------------------------- |
-| ✊       | Rock     | Closed fist                      |
-| 🖐      | Paper    | Open hand                        |
-| ✌       | Scissors | Index and middle finger extended |
+| Gesture | Sign     | Description                       |
+| ------- | -------- | --------------------------------- |
+| ✊       | Rock     | Closed fist                       |
+| 🖐      | Paper    | Open hand                         |
+| ✌       | Scissors | Index and middle fingers extended |
 
 ---
 
@@ -172,13 +176,41 @@ REMATCH / MENU
 
 ---
 
+## 📸 Screenshots
+
+### Main Menu
+
+<p align="center">
+  <img src="assets/menu.png" width="750">
+</p>
+
+### Gameplay
+
+<p align="center">
+  <img src="assets/gameplay.png" width="750">
+</p>
+
+### Round Result Screen
+
+<p align="center">
+  <img src="assets/result.png" width="750">
+</p>
+
+### Match Over Screen
+
+<p align="center">
+  <img src="assets/gameover.png" width="750">
+</p>
+
+---
+
 ## 🚀 Future Improvements
 
 * [ ] Sound effects
 * [ ] Two-player mode
 * [ ] Difficulty levels
-* [ ] Match history tracking
-* [ ] Leaderboard system
+* [ ] Match history
+* [ ] Leaderboard
 * [ ] Custom themes
 
 ---
@@ -192,6 +224,30 @@ REMATCH / MENU
 
 ---
 
+## 👨‍💻 Author
+
+<p align="center">
+
+### **Kanak Tiwari**
+
+Final Year B.Tech Student • Python Developer • Computer Vision Enthusiast
+
+<a href="https://github.com/YOUR_USERNAME">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
+</a>
+
+<a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="mailto:your-email@example.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail">
+</a>
+
+</p>
+
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License.
@@ -200,10 +256,10 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support
 
-If you found this project interesting, please consider giving it a **star ⭐**.
+If you found this project useful, consider giving it a **star ⭐** on GitHub.
 
 ---
 
 <p align="center">
-Built with ❤️ using Python and Computer Vision
+Made with ❤️ by <b>Kanak Tiwari</b>
 </p>
