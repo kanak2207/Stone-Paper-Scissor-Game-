@@ -183,26 +183,27 @@ REMATCH / MENU
 <p align="center">
   <img src="assets/menu.png" width="750">
 </p>
+<img width="1595" height="932" alt="image" src="https://github.com/user-attachments/assets/b2ed8545-fb42-4f90-989d-c5daf12186d4" />
+
 
 ### Gameplay
 
 <p align="center">
   <img src="assets/gameplay.png" width="750">
 </p>
+<img width="1587" height="932" alt="image" src="https://github.com/user-attachments/assets/09a6d7b2-35e3-4c6f-b3c0-799584e4702c" />
+
+
 
 ### Round Result Screen
 
 <p align="center">
   <img src="assets/result.png" width="750">
 </p>
+<img width="1587" height="932" alt="image" src="https://github.com/user-attachments/assets/1c643524-e3f5-493d-8559-4e4c53f3e522" />
 
-### Match Over Screen
 
-<p align="center">
-  <img src="assets/gameover.png" width="750">
-</p>
 
----
 
 ## 🚀 Future Improvements
 
@@ -232,15 +233,15 @@ REMATCH / MENU
 
 Final Year B.Tech Student • Python Developer • Computer Vision Enthusiast
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/kanak2207">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+<a href="https://linkedin.com/in/kanak-tiwari22">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
 </a>
 
-<a href="mailto:your-email@example.com">
+<a href="kanaktiwari0722@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail">
 </a>
 
@@ -261,5 +262,5 @@ If you found this project useful, consider giving it a **star ⭐** on GitHub.
 ---
 
 <p align="center">
-Made with ❤️ by <b>Kanak Tiwari</b>
+Made with ❤️ by <b>KT</b>
 </p>
